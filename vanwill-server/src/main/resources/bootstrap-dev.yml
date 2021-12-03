@@ -1,0 +1,15 @@
+nacos:
+  server-addr: http://10.39.80.39:8849
+  namespace: 44cdb81a-cf48-4cc8-b537-320468125f16
+
+spring:
+  application:
+    name: vanwill-dev-server
+  cloud:
+    nacos:
+      config:
+        server-addr: ${nacos.server-addr}
+        namespace: ${nacos.namespace}
+        file-extension: yml
+      discovery:
+        server-addr: ${nacos.server-addr}
