@@ -35,12 +35,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-
 
 		<dependency>
 			<groupId>mysql</groupId>
@@ -84,7 +78,28 @@
 			<artifactId>spring-boot-starter-aop</artifactId>
 		</dependency>
 
+		<!--集成布隆过滤器-->
+<!--		<dependency>
+			<groupId>org.redisson</groupId>
+			<artifactId>redisson-spring-boot-starter</artifactId>
+			<version>3.16.1</version>
+		</dependency>-->
 
+		<!-- redis -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-pool2</artifactId>
+		</dependency>
 
 		<!-- swagger 替换为knife4j 支持word导出 -->
 		<dependency>
@@ -114,6 +129,24 @@
 			<version>${springfox.version}</version>
 		</dependency>-->
 
+		<!-- 属性比对器-->
+		<dependency>
+			<groupId>com.github.dadiyang</groupId>
+			<artifactId>equator</artifactId>
+			<version>1.0.4</version>
+		</dependency>
+
+        <dependency>
+            <groupId>cn.dynamictp</groupId>
+            <artifactId>dynamic-tp-spring-boot-starter-nacos</artifactId>
+            <!--<artifactId>dynamic-tp-spring-cloud-starter-nacos</artifactId>-->
+            <version>1.0.8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
     </dependencies>
 
 

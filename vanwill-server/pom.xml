@@ -38,10 +38,6 @@
 			<version>1.4.0</version>
 		</dependency>-->
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
 
 		<!-- nacos 配置中心-->
 		<dependency>
@@ -96,7 +92,6 @@
 			<artifactId>spring-boot-admin-starter-server</artifactId>
 			<version>${spring-boot-admin.version}</version>
 		</dependency>
-
 
 	</dependencies>
 

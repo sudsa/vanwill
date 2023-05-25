@@ -1,4 +1,4 @@
-package com.will.vanoil;
+package com.qifeng.will;
 
 import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.InjectionConfig;
@@ -18,7 +18,7 @@ import java.util.Map;
  */
 public class AlgGenerator {
 
-    final static String  dirPath = "D:\\van-project\\van-will\\src\\main\\java";
+    final static String  dirPath = "C:\\fuiou-project\\van-will\\src\\main\\java";
 
     /**
      * <p>

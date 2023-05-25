@@ -7,13 +7,15 @@
     <artifactId>vanwill-qf</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>vanwill-qf</name>
-    <description>旗风vanwill-qf</description>
+    <description>vanwill-qf</description>
 
-    <parent>
-        <groupId>com.qifeng.will</groupId>
-        <artifactId>qifeng-parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-    </parent>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.3.RELEASE</version>
+		<!--<version>2.1.0.RELEASE</version>-->
+		<relativePath/><!-- lookup parent from repository -->
+	</parent>
 
 
     <properties>
@@ -36,7 +38,7 @@
         <version.commons-httpclient>3.1</version.commons-httpclient>
         <version.commons-cli>1.2</version.commons-cli>
 		<spring-boot-admin.version>2.0.3</spring-boot-admin.version>
-
+		<commons-lang3>3.6</commons-lang3>
     </properties>
 
     <modules>
@@ -48,12 +50,23 @@
     </modules>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-<!--        <dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.22</version>
-        </dependency>-->
+        </dependency>
 
         <dependency>
             <groupId>org.ow2.asm</groupId>

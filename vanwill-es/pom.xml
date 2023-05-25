@@ -10,23 +10,24 @@
 
 
 	<groupId>com.qifeng.will</groupId>
-	<artifactId>vanwill-base</artifactId>
+	<artifactId>vanwill-es</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>vanwill-base</name>
-	<description>旗风vanwill-base</description>
+	<name>vanwill-es</name>
+	<description>旗风vanwill-listener</description>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-collections4</artifactId>
-            <version>RELEASE</version>
-        </dependency>
 
+		<dependency>
+			<groupId>com.qifeng-will</groupId>
+			<artifactId>vanwill-srv</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 
+
 	<build>
-		<plugins>
+		<!--<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
@@ -49,7 +50,7 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
-		</plugins>
+		</plugins>-->
 	</build>
 
 </project>

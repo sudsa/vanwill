@@ -1,5 +1,5 @@
 nacos:
-  server-addr: http://10.39.80.39:8849
+  server-addr: http://127.0.0.1:8849
   namespace: 44cdb81a-cf48-4cc8-b537-320468125f16
 
 spring:

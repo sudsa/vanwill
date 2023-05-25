@@ -1,7 +1,16 @@
 package com.qifeng.will.base.warrior.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
+import java.util.Comparator;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class DzUser {
     private String id;
 
@@ -42,4 +51,5 @@ public class DzUser {
     public void setEmail(String email) {
         this.email = email;
     }
+
 }
