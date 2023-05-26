@@ -9,7 +9,7 @@
 		<!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.qifeng-will</groupId>
+	<groupId>com.qifeng.will</groupId>
 	<artifactId>vanwill-srv</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>vanwill-srv</name>
@@ -24,26 +24,19 @@
 			<version>2.1.5.RELEASE</version>
 		</dependency>
 
-<!--		<dependency>-->
-<!--			<groupId>com.qifeng.will</groupId>-->
-<!--			<artifactId>qifeng-es</artifactId>-->
-<!--			<version>0.0.1-SNAPSHOT</version>-->
-<!--		</dependency>-->
-
 		<dependency>
 			<groupId>com.qifeng.will</groupId>
-			<artifactId>vanwill-base</artifactId>
+<!--			<artifactId>qifeng-es</artifactId>-->
+			<artifactId>vanwill-es</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-
-
 
 	</dependencies>
 
 
 
 	<build>
-		<!--<plugins>
+		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
@@ -55,18 +48,13 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
-		</plugins>-->
+		</plugins>
 	</build>
 
 </project>

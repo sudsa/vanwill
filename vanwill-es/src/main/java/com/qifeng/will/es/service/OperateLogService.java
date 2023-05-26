@@ -1,6 +1,13 @@
 package com.qifeng.will.es.service;
 
+import com.alibaba.fastjson.TypeReference;
+import com.qifeng.will.base.dto.OperateDto;
+import com.qifeng.will.es.dto.EsBaseDto;
+import com.qifeng.will.es.dto.EsPageDto;
+import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * ClassName: OperateLogService
@@ -12,5 +19,9 @@ import org.springframework.stereotype.Service;
 @Service
 public interface OperateLogService {
 
-    void pageQuery(String index);
+    EsPageDto<OperateDto> pageQuery(String index, SearchSourceBuilder builder, TypeReference reference);
+
+    Boolean createIndex(String indexName, EsBaseDto esBaseDto);
+
+    List<OperateDto> search(String indexName,  SearchSourceBuilder builder, Class clazz);
 }
