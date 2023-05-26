@@ -18,10 +18,11 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>com.qifeng-will</groupId>
+			<groupId>com.qifeng.will</groupId>
 			<artifactId>vanwill-srv</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
 	</dependencies>
 
 

@@ -19,6 +19,12 @@
 	<dependencies>
 
 		<dependency>
+			<groupId>com.qifeng.will</groupId>
+			<artifactId>vanwill-listener</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
@@ -47,17 +53,7 @@
 			<optional>true</optional>
 		</dependency>
 
-		<dependency>
-			<groupId>com.qifeng.will</groupId>
-			<artifactId>vanwill-base</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 
-		<dependency>
-			<groupId>com.qifeng.will</groupId>
-			<artifactId>vanwill-listener</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 
 		<!-- shiro -->
 		<dependency>
